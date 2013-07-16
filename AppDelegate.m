@@ -36,8 +36,15 @@
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];  
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = self.navigationController;
+<<<<<<< HEAD
+<<<<<<< HEAD
     [self.window makeKeyAndVisible]; //testing 1234
+=======
+    [self.window makeKeyAndVisible]; //From branch
+>>>>>>> Bug-fix
+=======
     [self.window makeKeyAndVisible]; //From branch 102
+>>>>>>> Bug-fix
     return YES;
 }
 
